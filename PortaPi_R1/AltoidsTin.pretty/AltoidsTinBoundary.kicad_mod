@@ -1,0 +1,155 @@
+(footprint "AltoidsTinBoundary"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24d52291-7255-448a-9be7-b9e646a614bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AltoidsTinBoundary"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f90de45-d9b7-4c5e-8826-87513fe369ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed67c13e-a6a2-44c5-88bf-b5abc8856e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fc0f7eb-d2b5-4e94-be97-dca936e55ae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f834e18-0c56-47cf-9cb8-a5624039ede5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -46.95 15)
+		(end -46.95 -15.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "957d8db9-a922-4401-8071-65ae0538d9e7")
+	)
+	(fp_line
+		(start -32.95 -29.75)
+		(end 32.95 -29.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7a940c7a-2e47-4519-b2a7-e72724dd3233")
+	)
+	(fp_line
+		(start 32.95 29)
+		(end -32.95 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9cb5a5ab-4959-4bdb-a5fe-db441967657d")
+	)
+	(fp_line
+		(start 46.95 -15.75)
+		(end 46.95 15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b7e070b7-e91e-4910-8944-21c5a7776990")
+	)
+	(fp_arc
+		(start -46.95 -15.75)
+		(mid -42.849495 -25.649495)
+		(end -32.95 -29.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbe2851b-7b9e-4487-ba00-4aedae24cd22")
+	)
+	(fp_arc
+		(start -32.95 29)
+		(mid -42.849495 24.899495)
+		(end -46.95 15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "96a174d1-2d61-4a94-bcb5-7b99e5bfd1f5")
+	)
+	(fp_arc
+		(start 32.95 -29.75)
+		(mid 42.849495 -25.649495)
+		(end 46.95 -15.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f195268-af4e-41b2-af5d-816f58ac6f53")
+	)
+	(fp_arc
+		(start 46.95 15)
+		(mid 42.849495 24.899495)
+		(end 32.95 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "53c8ddf8-ab81-400b-96e7-0a614175812a")
+	)
+)

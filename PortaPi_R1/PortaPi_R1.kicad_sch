@@ -9290,16 +9290,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9334e1bc-8ee8-4fc7-91d3-8a1652154eb6")
-	)
-	(wire
-		(pts
 			(xy 201.93 71.12) (xy 201.93 80.01)
 		)
 		(stroke
@@ -9500,7 +9490,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 92.71 53.34)
+			(xy 101.6 53.34) (xy 91.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9660,7 +9650,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 53.34) (xy 92.71 63.5)
+			(xy 91.44 53.34) (xy 91.44 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10593,7 +10583,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 224.79 238.76 0)
+		(at 193.04 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10602,7 +10592,7 @@
 		(fields_autoplaced yes)
 		(uuid "03b00424-9f16-4f05-94e3-22b0976259f2")
 		(property "Reference" "SW1"
-			(at 224.79 231.14 0)
+			(at 193.04 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +10600,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 233.68 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +10608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 233.68 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +10617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 233.68 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10626,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 238.76 0)
+			(at 193.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
