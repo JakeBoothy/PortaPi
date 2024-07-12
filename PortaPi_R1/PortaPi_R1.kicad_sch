@@ -13648,6 +13648,139 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Slide_DPDT"
 			(pin_names
 				(offset 0) hide)
@@ -15338,12 +15471,6 @@
 		(uuid "00176d98-126c-4998-8158-411ea1d71b9a")
 	)
 	(junction
-		(at 325.12 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e1e184-e9b8-4ef5-b1f3-370ea0659521")
-	)
-	(junction
 		(at 405.13 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15534,12 +15661,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "465f00c4-29f0-475d-964c-3248e1e2df1f")
-	)
-	(junction
-		(at 325.12 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "474cd0a9-2864-40b2-91d0-29cf6336d9f0")
 	)
 	(junction
 		(at 298.45 257.81)
@@ -15932,12 +16053,6 @@
 		(uuid "b4f3bdcd-0650-44b1-bb52-ed35594b4df8")
 	)
 	(junction
-		(at 347.98 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7c21de8-4fb3-4d14-ae5e-c48bc2ba50b0")
-	)
-	(junction
 		(at 125.73 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16070,12 +16185,6 @@
 		(uuid "e313f373-99d6-4bdd-8a9f-7fd94047e062")
 	)
 	(junction
-		(at 300.99 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3461e31-39ac-44dd-bae5-b73497c17912")
-	)
-	(junction
 		(at 529.59 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16176,12 +16285,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f68c22e2-adc1-43c6-a536-7eb159a36a4d")
-	)
-	(junction
-		(at 300.99 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f919af40-d252-42a8-bae2-ae5510447004")
 	)
 	(junction
 		(at 114.3 198.12)
@@ -16967,16 +17070,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 52.07) (xy 336.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2923b9f0-97f8-4ffb-bec6-90d6252d035d")
-	)
-	(wire
-		(pts
 			(xy 368.3 242.57) (xy 368.3 243.84)
 		)
 		(stroke
@@ -17274,16 +17367,6 @@
 			(type default)
 		)
 		(uuid "3786befa-8722-4f6c-b48a-6e3ad8afeb5a")
-	)
-	(wire
-		(pts
-			(xy 300.99 52.07) (xy 294.64 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37cc465a-8ae9-492a-a753-4533b2cec69c")
 	)
 	(wire
 		(pts
@@ -17817,7 +17900,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 52.07) (xy 325.12 52.07)
+			(xy 312.42 52.07) (xy 336.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -17947,7 +18030,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 52.07) (xy 300.99 52.07)
+			(xy 294.64 52.07) (xy 312.42 52.07)
 		)
 		(stroke
 			(width 0)
@@ -19177,7 +19260,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 52.07) (xy 347.98 52.07)
+			(xy 336.55 52.07) (xy 356.87 52.07)
 		)
 		(stroke
 			(width 0)
@@ -19444,16 +19527,6 @@
 			(type default)
 		)
 		(uuid "c0b91109-7368-4fef-93b3-bbf524df77b4")
-	)
-	(wire
-		(pts
-			(xy 325.12 59.69) (xy 336.55 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f6bdc7-be13-4a33-acf6-a94d835cee1e")
 	)
 	(wire
 		(pts
@@ -19747,7 +19820,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 59.69) (xy 325.12 59.69)
+			(xy 312.42 59.69) (xy 336.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -20317,16 +20390,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 52.07) (xy 325.12 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa378d21-c30a-493d-88b9-ce5bd6fa0f5b")
-	)
-	(wire
-		(pts
 			(xy 69.85 207.01) (xy 78.74 207.01)
 		)
 		(stroke
@@ -20798,6 +20861,16 @@
 			)
 		)
 		(uuid "c694ccb3-f53e-4162-a34a-0a22d60c8ec2")
+	)
+	(text "L and R bumpers?"
+		(exclude_from_sim no)
+		(at 204.978 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7c0cb32-6c6a-42d4-88f4-30d123fdcff2")
 	)
 	(text "Temperature/Pressure Sensor"
 		(exclude_from_sim no)
@@ -23639,16 +23712,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ABLS-12.000MHZ-B4-T"
+		(property "Value" "ABM3-12.000MHZ-D2Y-T"
 			(at 519.43 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "RP2040_minimal:Crystal_SMD_HC49-US"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 513.08 344.17 0)
 			(effects
 				(font
@@ -24860,75 +24934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 300.99 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29ff5951-8479-4e20-b622-5fe2e5f9b446")
-		(property "Reference" "Cr1"
-			(at 303.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 303.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 301.9552 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 300.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78d84d7e-a8fe-47e0-afe5-f29fd2a7c64d")
-		)
-		(pin "2"
-			(uuid "69f60fe0-e85d-40b6-9edb-4978af2c8c78")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "Cr1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RAK3172:RAK3172")
 		(at 261.62 361.95 0)
 		(unit 1)
@@ -25472,7 +25477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 171.45 80.01 0)
 			(effects
 				(font
@@ -25607,7 +25612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 406.4 72.898 90)
 			(effects
 				(font
@@ -26605,7 +26610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 257.81 63.246 90)
 			(effects
 				(font
@@ -27428,7 +27433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "27pf"
 			(at 529.463 352.171 0)
 			(effects
 				(font
@@ -27833,7 +27838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "27pf"
 			(at 529.463 342.011 0)
 			(effects
 				(font
@@ -28520,7 +28525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 58.42 0)
 			(effects
 				(font
@@ -30208,6 +30213,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 204.47 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3ebad7-9a4f-467b-a49f-4c7506637c8f")
+		(property "Reference" "SW1"
+			(at 204.47 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 204.47 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1264dca-7c70-4124-9c5a-e96f674c169c")
+		)
+		(pin "2"
+			(uuid "37d1114d-acb1-4b78-b12c-79fd564d3f2a")
+		)
+		(instances
+			(project ""
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 471.17 78.74 0)
 		(unit 1)
@@ -30938,75 +31011,6 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 347.98 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b43a970-c0ac-4fec-93ce-76688168e224")
-		(property "Reference" "C4"
-			(at 350.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 348.9452 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 347.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a4e948d-4e92-444d-9e1f-7b87119aeb25")
-		)
-		(pin "2"
-			(uuid "565e6a58-e3e2-488c-bbb4-fd48f6860fc0")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -31977,6 +31981,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 204.47 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f6108f-a5b2-4253-93a1-1391d1bd061d")
+		(property "Reference" "SW4"
+			(at 204.47 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 204.47 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+			(at 204.47 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 204.47 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c2f04b-5b4a-4c72-8517-638324546f28")
+		)
+		(pin "2"
+			(uuid "0d7065f7-8b4b-4f40-92f4-4d63fdad6fe7")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 194.31 0)
 		(mirror y)
@@ -32846,7 +32918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -33250,7 +33322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 214.63 73.66 0)
 			(effects
 				(font
@@ -35147,6 +35219,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 218.44 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b770dde9-84a9-4cd0-8f21-794279c42125")
+		(property "Reference" "SW5"
+			(at 218.44 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 218.44 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+			(at 218.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 218.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9611b5a7-d7f1-4559-a2ad-e23efbdb96a8")
+		)
+		(pin "2"
+			(uuid "45ab14bc-7793-4e6c-bfd4-ef6011faead5")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 444.5 49.53 0)
 		(unit 1)
@@ -35284,6 +35424,74 @@
 			(project ""
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 218.44 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac9b343-b315-4f43-9a1a-4d2bb0768951")
+		(property "Reference" "SW3"
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 218.44 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+			(at 218.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 218.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fd08436-e6ed-410d-b3a0-66714ace8d06")
+		)
+		(pin "2"
+			(uuid "e6aa176f-3fbc-42bb-9610-002837a4aa0a")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -36159,7 +36367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 248.6152 67.31 0)
 			(effects
 				(font
@@ -36228,7 +36436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 278.13 71.12 0)
 			(effects
 				(font
@@ -37991,7 +38199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.95 61.468 90)
 			(effects
 				(font
@@ -38437,75 +38645,6 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 325.12 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df92643a-e637-4bf8-a1b2-d1ecd6ece6d0")
-		(property "Reference" "C11"
-			(at 327.66 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100pF"
-			(at 327.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 326.0852 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 325.12 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da30bf00-e81e-46ad-89eb-6ad8846f16ec")
-		)
-		(pin "2"
-			(uuid "a2ec08b7-7001-4f49-ac37-ff3af6d96a41")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "C11")
 					(unit 1)
 				)
 			)
