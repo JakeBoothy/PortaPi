@@ -6,4 +6,6 @@
   (lib (name "TI_TLV320AIC3101")(type "KiCad")(uri "${KIPRJMOD}/TI_TLV320AIC3101.pretty")(options "")(descr ""))
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "DF40HC")(type "KiCad")(uri "${KIPRJMOD}/DF40HC.pretty")(options "")(descr ""))
+  (lib (name "DF40C-40DP")(type "KiCad")(uri "${KIPRJMOD}/DF40C-40DP.pretty")(options "")(descr ""))
+  (lib (name "DF40C-30DP")(type "KiCad")(uri "${KIPRJMOD}/DF40C-30DP.pretty")(options "")(descr ""))
 )
