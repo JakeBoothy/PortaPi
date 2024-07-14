@@ -8,4 +8,5 @@
   (lib (name "DF40HC")(type "KiCad")(uri "${KIPRJMOD}/DF40HC.pretty")(options "")(descr ""))
   (lib (name "DF40C-40DP")(type "KiCad")(uri "${KIPRJMOD}/DF40C-40DP.pretty")(options "")(descr ""))
   (lib (name "DF40C-30DP")(type "KiCad")(uri "${KIPRJMOD}/DF40C-30DP.pretty")(options "")(descr ""))
+  (lib (name "1042240820")(type "KiCad")(uri "${KIPRJMOD}/1042240820.pretty")(options "")(descr ""))
 )
