@@ -8157,7 +8157,7 @@
 				)
 			)
 		)
-		(symbol "LED:WS2812"
+		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
 			)
@@ -8173,7 +8173,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812"
+			(property "Value" "WS2812B"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -8182,7 +8182,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -8192,7 +8192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -8220,7 +8220,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*"
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8229,7 +8229,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812_0_0"
+			(symbol "WS2812B_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -8239,7 +8239,7 @@
 					)
 				)
 			)
-			(symbol "WS2812_0_1"
+			(symbol "WS2812B_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -8336,11 +8336,11 @@
 					)
 				)
 			)
-			(symbol "WS2812_1_1"
-				(pin output line
-					(at 7.62 0 180)
+			(symbol "WS2812B_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "DOUT"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8355,10 +8355,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "DIN"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8366,60 +8366,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 2.54 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8437,7 +8383,25 @@
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9553,6 +9517,85 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -16788,6 +16831,12 @@
 		(uuid "587bf3d3-9297-42ac-b54c-7c5c1d69f424")
 	)
 	(junction
+		(at 690.88 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b97dffc-39df-46bd-845f-80cafbbd3e0b")
+	)
+	(junction
 		(at 160.02 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17028,7 +17077,7 @@
 		(uuid "8dbd0d9b-f0cb-46bb-8084-612ac5ffb5d0")
 	)
 	(junction
-		(at 579.12 152.4)
+		(at 579.12 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8df5527e-9ebb-4a08-aefe-b31362a13092")
@@ -17220,6 +17269,12 @@
 		(uuid "bed361ae-1971-43ba-a5bc-48b9f562f089")
 	)
 	(junction
+		(at 701.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf00eada-3521-4e07-b203-0928db30aa31")
+	)
+	(junction
 		(at 82.55 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17292,6 +17347,12 @@
 		(uuid "c9fe7a82-44dc-485f-b781-1342df20f8f5")
 	)
 	(junction
+		(at 698.5 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd4a1994-6e84-429b-8fce-789ccc313e13")
+	)
+	(junction
 		(at 290.83 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17316,7 +17377,7 @@
 		(uuid "d590da42-3c66-4df2-a5fd-c0c55b287d3b")
 	)
 	(junction
-		(at 588.01 152.4)
+		(at 588.01 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e4b4cc-77e4-4d8b-a638-82d709408e82")
@@ -17436,7 +17497,7 @@
 		(uuid "f276d1d5-6af8-43fc-bb04-219901a23757")
 	)
 	(junction
-		(at 570.23 152.4)
+		(at 570.23 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4aeb391-545d-4808-968e-4ed12ce45b5f")
@@ -17452,6 +17513,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f68c22e2-adc1-43c6-a536-7eb159a36a4d")
+	)
+	(junction
+		(at 701.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5019b0-696c-4989-945e-fe5facff7767")
 	)
 	(junction
 		(at 295.91 336.55)
@@ -17754,6 +17821,16 @@
 			(type default)
 		)
 		(uuid "0b0beaa7-a4e5-47ef-bac7-b5e6b4173e78")
+	)
+	(wire
+		(pts
+			(xy 473.71 457.2) (xy 485.14 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b71a977-3061-479d-acaa-d5aa9d24f6dd")
 	)
 	(wire
 		(pts
@@ -18417,7 +18494,7 @@
 	)
 	(wire
 		(pts
-			(xy 588.01 152.4) (xy 596.9 152.4)
+			(xy 588.01 139.7) (xy 596.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -18488,6 +18565,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 127) (xy 701.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b47a63-8129-487a-b3ff-a77e33b70cac")
+	)
+	(wire
+		(pts
 			(xy 173.99 379.73) (xy 190.5 379.73)
 		)
 		(stroke
@@ -18535,6 +18622,16 @@
 			(type default)
 		)
 		(uuid "2b64255c-8d5d-4fe2-bfed-8e8416da2686")
+	)
+	(wire
+		(pts
+			(xy 701.04 129.54) (xy 701.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8aab44-588d-4dc2-897a-4fa44d09dae4")
 	)
 	(wire
 		(pts
@@ -18828,7 +18925,7 @@
 	)
 	(wire
 		(pts
-			(xy 579.12 152.4) (xy 588.01 152.4)
+			(xy 579.12 139.7) (xy 588.01 139.7)
 		)
 		(stroke
 			(width 0)
@@ -19068,7 +19165,7 @@
 	)
 	(wire
 		(pts
-			(xy 726.44 347.98) (xy 736.6 347.98)
+			(xy 720.09 345.44) (xy 730.25 345.44)
 		)
 		(stroke
 			(width 0)
@@ -19645,16 +19742,6 @@
 			(type default)
 		)
 		(uuid "62233b16-0621-4001-a842-319fb1b5ccc0")
-	)
-	(wire
-		(pts
-			(xy 471.17 260.35) (xy 490.22 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627a38e9-06c5-43b6-91d8-05c5184f8f03")
 	)
 	(wire
 		(pts
@@ -20878,6 +20965,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 129.54) (xy 690.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ed0178-050c-43a4-aecc-3ad4082a7d24")
+	)
+	(wire
+		(pts
 			(xy 173.99 438.15) (xy 168.91 438.15)
 		)
 		(stroke
@@ -21318,7 +21415,7 @@
 	)
 	(wire
 		(pts
-			(xy 699.77 347.98) (xy 711.2 347.98)
+			(xy 695.96 345.44) (xy 704.85 345.44)
 		)
 		(stroke
 			(width 0)
@@ -21598,6 +21695,16 @@
 	)
 	(wire
 		(pts
+			(xy 695.96 195.58) (xy 698.5 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fb12c5-f88c-4e57-81e1-0f3277e3da28")
+	)
+	(wire
+		(pts
 			(xy 429.26 482.6) (xy 429.26 485.14)
 		)
 		(stroke
@@ -21635,6 +21742,16 @@
 			(type default)
 		)
 		(uuid "c52d7245-5ecb-4bcf-b0e3-17e6912d3d69")
+	)
+	(wire
+		(pts
+			(xy 695.96 144.78) (xy 695.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5df14f9-a893-4233-b4ff-ce2b688f1680")
 	)
 	(wire
 		(pts
@@ -21678,7 +21795,7 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 152.4) (xy 579.12 152.4)
+			(xy 570.23 139.7) (xy 579.12 139.7)
 		)
 		(stroke
 			(width 0)
@@ -21785,6 +21902,16 @@
 			(type default)
 		)
 		(uuid "d42f409a-45da-41c8-87c3-8000171a952c")
+	)
+	(wire
+		(pts
+			(xy 695.96 142.24) (xy 701.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44ead29-ee81-424b-932f-d060a94e4f0b")
 	)
 	(wire
 		(pts
@@ -22038,6 +22165,16 @@
 	)
 	(wire
 		(pts
+			(xy 680.72 129.54) (xy 690.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa64f2f-4006-4ba7-8cc1-a73444079d25")
+	)
+	(wire
+		(pts
 			(xy 173.99 336.55) (xy 180.34 336.55)
 		)
 		(stroke
@@ -22228,6 +22365,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 142.24) (xy 701.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb61b965-0b38-4622-9a05-e64063ad8199")
+	)
+	(wire
+		(pts
 			(xy 260.35 466.09) (xy 279.4 466.09)
 		)
 		(stroke
@@ -22408,7 +22555,7 @@
 	)
 	(wire
 		(pts
-			(xy 751.84 347.98) (xy 759.46 347.98)
+			(xy 745.49 345.44) (xy 753.11 345.44)
 		)
 		(stroke
 			(width 0)
@@ -22785,6 +22932,16 @@
 			)
 		)
 		(uuid "3b59e9ba-58b3-47ac-9767-ffcae2a75359")
+	)
+	(text "Space for 20mm speaker"
+		(exclude_from_sim no)
+		(at 789.94 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "415af06f-a7bd-4b94-96d1-d70875fd72d7")
 	)
 	(text "Make sure C8 is close to pin 45 of RP2040"
 		(exclude_from_sim no)
@@ -24038,17 +24195,6 @@
 		)
 		(uuid "6ced6e63-fe45-4585-84bd-359c1056e2b6")
 	)
-	(label "EYESPI_LITE"
-		(at 490.22 260.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d1cc0cf-aada-48a8-9289-43c9a97275c0")
-	)
 	(label "USB_DP"
 		(at 494.03 388.62 0)
 		(fields_autoplaced yes)
@@ -24928,6 +25074,17 @@
 			(justify right bottom)
 		)
 		(uuid "e4cf1783-ea87-44a5-844f-9c72daabbc22")
+	)
+	(label "EYESPI_LITE"
+		(at 485.14 457.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e665cf8d-c5ec-4f14-a650-2214c2f4c244")
 	)
 	(label "I2C1_SDA"
 		(at 340.36 238.76 0)
@@ -27060,6 +27217,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 688.34 337.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132191e0-6928-441f-9c7b-5b4cb2a5b9aa")
+		(property "Reference" "#PWR0170"
+			(at 688.34 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 688.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 688.34 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 688.34 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 688.34 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cb19444-1cc1-49df-a7bd-a489344fea71")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 410.21 196.85 0)
 		(unit 1)
@@ -27427,7 +27651,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 546.1 463.55 90)
+		(at 546.1 463.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27436,7 +27660,7 @@
 		(dnp no)
 		(uuid "18acad9c-2dca-4a05-8085-4e026e9db162")
 		(property "Reference" "Y1"
-			(at 542.7726 462.3816 90)
+			(at 549.4274 464.7184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27445,7 +27669,7 @@
 			)
 		)
 		(property "Value" "ABM3-12.000MHZ-D2Y-T"
-			(at 552.45 455.93 90)
+			(at 539.75 471.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27708,7 +27932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 744.22 355.6 0)
+		(at 737.87 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27717,7 +27941,7 @@
 		(fields_autoplaced yes)
 		(uuid "19be77de-0399-4a19-a54a-7bc31141fa3f")
 		(property "Reference" "#PWR0129"
-			(at 744.22 361.95 0)
+			(at 737.87 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27726,7 +27950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 744.22 360.68 0)
+			(at 737.87 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27734,7 +27958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 744.22 355.6 0)
+			(at 737.87 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27743,7 +27967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 744.22 355.6 0)
+			(at 737.87 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27752,7 +27976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 744.22 355.6 0)
+			(at 737.87 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27767,6 +27991,82 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 737.87 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e092c2-54b4-4f28-a1bb-808d8506339a")
+		(property "Reference" "D6"
+			(at 749.3 339.1214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 749.3 341.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 739.14 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 740.41 354.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 737.87 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7c4d3bb-0af3-4fc7-8a49-78ce44b91e6d")
+		)
+		(pin "3"
+			(uuid "f2c2e327-b599-41b1-b466-c90b89238374")
+		)
+		(pin "4"
+			(uuid "116df048-9255-4e7f-893d-bf3cbe818dbe")
+		)
+		(pin "1"
+			(uuid "80a6c322-5277-4cfe-b198-2629e1da49f5")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -28071,7 +28371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 701.3702 293.37 0)
 			(effects
 				(font
@@ -28926,7 +29226,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 718.82 355.6 0)
+		(at 712.47 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28935,7 +29235,7 @@
 		(fields_autoplaced yes)
 		(uuid "24d72761-2728-4bf1-b886-15d37114726d")
 		(property "Reference" "#PWR0128"
-			(at 718.82 361.95 0)
+			(at 712.47 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28944,7 +29244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 718.82 360.68 0)
+			(at 712.47 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28952,7 +29252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 718.82 355.6 0)
+			(at 712.47 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28961,7 +29261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 718.82 355.6 0)
+			(at 712.47 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28970,7 +29270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 718.82 355.6 0)
+			(at 712.47 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29216,6 +29516,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 591.82 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2635b1f5-847b-45d9-909a-70823eb6ff96")
+		(property "Reference" "FID3"
+			(at 594.36 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 594.36 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 591.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 591.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 195.58 217.17 0)
 		(mirror y)
@@ -29356,7 +29720,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 579.12 149.86 0)
+		(at 579.12 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -29365,7 +29729,7 @@
 		(fields_autoplaced yes)
 		(uuid "290e941a-8ebc-483b-bebc-47479ec7e93f")
 		(property "Reference" "H2"
-			(at 581.66 147.3199 0)
+			(at 581.66 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29374,7 +29738,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 581.66 149.8599 0)
+			(at 581.66 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29384,7 +29748,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 579.12 149.86 0)
+			(at 579.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29393,7 +29757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 579.12 149.86 0)
+			(at 579.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29402,7 +29766,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 579.12 149.86 0)
+			(at 579.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32101,6 +32465,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 680.72 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e439d5b-1510-46fb-80c4-c1db676003aa")
+		(property "Reference" "C77"
+			(at 683.641 132.1816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 683.641 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 681.6852 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 680.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 680.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5e2df8-eef3-4353-9e5b-bdf8973719dc")
+		)
+		(pin "2"
+			(uuid "f5fe71d1-9eef-4dc4-a3c1-700655d37b29")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 478.79 223.52 180)
 		(unit 1)
@@ -32168,6 +32601,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 591.82 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb7e99b-8e60-422e-a71f-08173e8d59e6")
+		(property "Reference" "FID4"
+			(at 594.36 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 594.36 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 591.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 591.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 464.82 535.94 0)
 		(unit 1)
@@ -32227,6 +32724,70 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 591.82 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc5ebb4-8859-4626-a787-9cd90fd2c353")
+		(property "Reference" "FID2"
+			(at 594.36 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 594.36 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 591.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 591.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -32329,7 +32890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 708.9902 242.57 0)
 			(effects
 				(font
@@ -32373,7 +32934,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 570.23 149.86 0)
+		(at 570.23 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -32382,7 +32943,7 @@
 		(fields_autoplaced yes)
 		(uuid "41db6cb3-4659-4d9e-80e9-b86dcc407b1b")
 		(property "Reference" "H1"
-			(at 572.77 147.3199 0)
+			(at 572.77 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32391,7 +32952,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 572.77 149.8599 0)
+			(at 572.77 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32401,7 +32962,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 570.23 149.86 0)
+			(at 570.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32410,7 +32971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 570.23 149.86 0)
+			(at 570.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32419,7 +32980,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 570.23 149.86 0)
+			(at 570.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32912,6 +33473,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 455.93 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44bb586d-886c-4d35-9668-ab9dfdbf66a4")
+		(property "Reference" "#PWR077"
+			(at 455.93 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 455.93 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 455.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 455.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb76a4d4-0d21-415d-92d3-583b33bc0e78")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RP2040_minimal-rescue:GND-power")
 		(at 401.32 359.41 0)
 		(unit 1)
@@ -33140,7 +33767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 734.9998 307.34 0)
 			(effects
 				(font
@@ -33387,7 +34014,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 570.23 152.4 0)
+		(at 570.23 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33396,7 +34023,7 @@
 		(fields_autoplaced yes)
 		(uuid "49864a66-854f-4b6f-b68f-dce832b577f2")
 		(property "Reference" "#PWR047"
-			(at 570.23 158.75 0)
+			(at 570.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33405,7 +34032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 570.23 157.48 0)
+			(at 570.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33413,7 +34040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 570.23 152.4 0)
+			(at 570.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33422,7 +34049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 570.23 152.4 0)
+			(at 570.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33431,7 +34058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 570.23 152.4 0)
+			(at 570.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34218,7 +34845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 761.365 302.26 0)
 			(effects
 				(font
@@ -34755,71 +35382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RP2040_minimal-rescue:GND-power")
-		(at 695.96 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56ecdc83-9cc9-4704-9d1a-fc5312a77f78")
-		(property "Reference" "#PWR068"
-			(at 695.96 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 696.087 199.9742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 695.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 695.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 695.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d448a54-aaa7-43c9-905f-978661e577b1")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 330.2 114.3 180)
 		(unit 1)
@@ -35223,72 +35785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 516.89 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d3f4775-215c-4712-a625-42daeecc2a2e")
-		(property "Reference" "#PWR04"
-			(at 516.89 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 516.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 516.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 516.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 516.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c1394f0-9dab-4a77-b61b-b9c5e9bf0432")
-		)
-		(instances
-			(project ""
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 190.5 91.44 0)
 		(unit 1)
@@ -35425,90 +35921,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812")
-		(at 718.82 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f23b22e-4707-4230-b3f2-17838cd180cd")
-		(property "Reference" "D6"
-			(at 728.98 341.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812"
-			(at 728.98 344.2014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
-			(at 720.09 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf"
-			(at 721.36 357.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 718.82 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "cf7cc918-782e-4234-8b64-5b386b3c6354")
-		)
-		(pin "2"
-			(uuid "ca80fb48-022f-49d1-878a-f25f6060c809")
-		)
-		(pin "3"
-			(uuid "fcf90db6-2891-48e7-932e-fa2c6b5eb481")
-		)
-		(pin "5"
-			(uuid "e564aef7-e79a-440e-af10-2f3c276c3390")
-		)
-		(pin "6"
-			(uuid "1ee1eb33-4a3e-48f1-a3b5-a9ad1afc8a39")
-		)
-		(pin "1"
-			(uuid "87ff065d-00ff-48fd-93f4-7bdf8d14b565")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 767.08 355.6 0)
+		(at 760.73 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35517,7 +35931,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fc4b44c-a6eb-4af1-8cb7-bde48894d35b")
 		(property "Reference" "#PWR0130"
-			(at 767.08 361.95 0)
+			(at 760.73 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35526,7 +35940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 767.08 360.68 0)
+			(at 760.73 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35534,7 +35948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 767.08 355.6 0)
+			(at 760.73 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35543,7 +35957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 767.08 355.6 0)
+			(at 760.73 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35552,7 +35966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 767.08 355.6 0)
+			(at 760.73 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36615,6 +37029,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 712.47 337.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6db690d3-6da4-4a02-850b-3b97692bda0b")
+		(property "Reference" "#PWR0171"
+			(at 712.47 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 712.47 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 712.47 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 712.47 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 712.47 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5fed9a-38f3-4138-8e8b-86eaf10fef46")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 440.69 529.59 0)
 		(unit 1)
@@ -37492,7 +37973,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 596.9 149.86 0)
+		(at 596.9 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -37501,7 +37982,7 @@
 		(fields_autoplaced yes)
 		(uuid "76a3829f-7adc-44ff-ab75-6cb78186f1c3")
 		(property "Reference" "H4"
-			(at 599.44 147.3199 0)
+			(at 599.44 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37510,7 +37991,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 599.44 149.8599 0)
+			(at 599.44 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37520,7 +38001,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 596.9 149.86 0)
+			(at 596.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37529,7 +38010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 596.9 149.86 0)
+			(at 596.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37538,7 +38019,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 596.9 149.86 0)
+			(at 596.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37824,88 +38305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812")
-		(at 767.08 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b254893-c01f-4741-8646-77376f358097")
-		(property "Reference" "D8"
-			(at 777.24 341.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812"
-			(at 777.24 344.2014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
-			(at 768.35 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf"
-			(at 769.62 357.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 767.08 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6d14e2ce-07a6-4be2-98a3-a608dcd7cb00")
-		)
-		(pin "2"
-			(uuid "db867b3d-d620-4985-b6b9-75818afb7d69")
-		)
-		(pin "3"
-			(uuid "51f6338d-5a8f-4d2f-ba17-6ddfe55d8263")
-		)
-		(pin "5"
-			(uuid "2bf0236f-f9bf-4ae7-8043-0e395bc84068")
-		)
-		(pin "6"
-			(uuid "46aa5e68-e718-4113-a6ad-8eb72e1508a1")
-		)
-		(pin "1"
-			(uuid "3180038f-fffb-42fd-a8cc-e8f47f3a4122")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 401.32 353.06 0)
 		(unit 1)
@@ -38036,6 +38435,82 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 712.47 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bada82e-1619-4a8b-a6e1-bc28cc0db48d")
+		(property "Reference" "D5"
+			(at 723.9 339.1214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 723.9 341.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 713.74 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 715.01 354.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 712.47 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e30164fe-221b-4263-9636-83f69528553a")
+		)
+		(pin "3"
+			(uuid "050111e1-5c04-4413-93cb-6bd86612b1dc")
+		)
+		(pin "4"
+			(uuid "c1d71f8d-5ac6-4262-87c8-493091254760")
+		)
+		(pin "1"
+			(uuid "1bbc8920-50ca-4845-a697-7818e65e34ba")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -38207,7 +38682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 751.5098 251.46 0)
 			(effects
 				(font
@@ -39075,7 +39550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 692.15 355.6 0)
+		(at 688.34 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39084,7 +39559,7 @@
 		(fields_autoplaced yes)
 		(uuid "81bf0667-60a2-452e-bef8-076d76ea9e70")
 		(property "Reference" "#PWR0127"
-			(at 692.15 361.95 0)
+			(at 688.34 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39093,7 +39568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 692.15 360.68 0)
+			(at 688.34 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39101,7 +39576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 692.15 355.6 0)
+			(at 688.34 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39110,7 +39585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 692.15 355.6 0)
+			(at 688.34 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39119,7 +39594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 692.15 355.6 0)
+			(at 688.34 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39571,7 +40046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 768.985 251.46 0)
 			(effects
 				(font
@@ -40786,6 +41261,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 760.73 337.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f068a56-2dc4-4ee3-a0ef-06c270ed99d1")
+		(property "Reference" "#PWR0173"
+			(at 760.73 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 760.73 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 760.73 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 760.73 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 760.73 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c409001b-d325-4800-9c47-9393d947ca23")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 635 218.44 0)
 		(mirror y)
@@ -41069,6 +41611,71 @@
 		)
 	)
 	(symbol
+		(lib_id "RP2040_minimal-rescue:GND-power")
+		(at 690.88 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91bf42eb-f59e-42c9-8509-a3ec6b8e2682")
+		(property "Reference" "#PWR0175"
+			(at 690.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 691.007 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 690.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 690.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 690.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab799f5-031f-4d92-9774-80a890c5f8ef")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 163.83 210.82 90)
 		(unit 1)
@@ -41136,88 +41743,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812")
-		(at 692.15 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "944b132c-0b95-4076-b348-ad3c7229d346")
-		(property "Reference" "D5"
-			(at 702.31 341.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812"
-			(at 702.31 344.2014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
-			(at 693.42 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf"
-			(at 694.69 357.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 692.15 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "db6d7b99-8eb6-4b51-af24-bc02499b30ee")
-		)
-		(pin "2"
-			(uuid "645d6430-5d3f-445c-947f-5aeeffa6598b")
-		)
-		(pin "3"
-			(uuid "b8dcb467-9601-439d-aed4-598355fbf5fe")
-		)
-		(pin "5"
-			(uuid "4f1d7b3b-7a0d-4ed8-8710-5594ad178c23")
-		)
-		(pin "6"
-			(uuid "5a88a794-8364-48cf-9955-9dd6afaea2f5")
-		)
-		(pin "1"
-			(uuid "ef5fe561-f5f1-4493-9404-43ae00ba425d")
-		)
-		(instances
-			(project ""
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 777.24 208.28 0)
 		(unit 1)
@@ -41278,6 +41803,75 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 690.88 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96129be3-93d3-4a50-a2fd-fa575c7b8e06")
+		(property "Reference" "C76"
+			(at 693.801 132.1816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 693.801 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 691.8452 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 690.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 690.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db97be3-830a-4116-9ce7-3ae673fe22b5")
+		)
+		(pin "2"
+			(uuid "84346a38-2bfe-445b-a903-ae7b33db30e2")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -41690,6 +42284,82 @@
 			(project ""
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 760.73 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c42a79a-f290-4d2a-b0ac-f8c9e22fe5c7")
+		(property "Reference" "D7"
+			(at 772.16 339.1214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 772.16 341.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 762 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 763.27 354.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 760.73 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f47a8c16-7a61-40cc-b8fe-6d929c7c3579")
+		)
+		(pin "3"
+			(uuid "b361b7ef-b245-4d94-afac-2d6096534a21")
+		)
+		(pin "4"
+			(uuid "d5a62b24-d34a-4f3a-b874-6bee0eeb0046")
+		)
+		(pin "1"
+			(uuid "1aa06203-db8a-419b-bd57-280438e077b7")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -42514,7 +43184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 742.6198 256.54 0)
 			(effects
 				(font
@@ -43471,7 +44141,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 588.01 149.86 0)
+		(at 588.01 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -43480,7 +44150,7 @@
 		(fields_autoplaced yes)
 		(uuid "affc7811-e029-41fd-90b7-7fd6242d614a")
 		(property "Reference" "H3"
-			(at 590.55 147.3199 0)
+			(at 590.55 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43489,7 +44159,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 590.55 149.8599 0)
+			(at 590.55 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43499,7 +44169,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 588.01 149.86 0)
+			(at 588.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43508,7 +44178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 588.01 149.86 0)
+			(at 588.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43517,7 +44187,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 588.01 149.86 0)
+			(at 588.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43831,7 +44501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 743.8898 302.26 0)
 			(effects
 				(font
@@ -44919,6 +45589,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 701.04 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2e99a6-4a92-4d5e-b832-92fc1db87754")
+		(property "Reference" "#PWR0174"
+			(at 701.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 696.722 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 701.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 701.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 701.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f31d3e-fbc2-4b70-9212-b789e274cefe")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 549.91 142.24 0)
 		(unit 1)
@@ -45664,6 +46399,71 @@
 		)
 	)
 	(symbol
+		(lib_id "RP2040_minimal-rescue:GND-power")
+		(at 680.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b13716-f5a7-41f3-b3f0-338f971a670f")
+		(property "Reference" "#PWR068"
+			(at 680.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 680.847 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 680.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 680.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 680.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9baaf5e-1d33-43a7-b293-b4a856738713")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 436.88 196.85 0)
 		(unit 1)
@@ -46274,6 +47074,71 @@
 		)
 	)
 	(symbol
+		(lib_id "RP2040_minimal-rescue:+3V3-power")
+		(at 516.89 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cba6f568-1458-4f97-82cf-2991e8a64145")
+		(property "Reference" "#PWR04"
+			(at 516.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 517.271 69.2658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9ac351a-1d74-4a10-b5b8-7aa95de8aefb")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 273.05 0)
 		(unit 1)
@@ -46809,6 +47674,70 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 591.82 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ae6b9d-b106-4352-aecd-e5b4fc863e61")
+		(property "Reference" "FID1"
+			(at 594.36 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 594.36 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 591.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 591.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -47901,72 +48830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 455.93 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6e74700-3a73-4a99-a4dd-eb649b963b24")
-		(property "Reference" "#PWR077"
-			(at 455.93 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 455.93 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 455.93 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 455.93 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 455.93 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85a552ec-8941-40d0-b21e-7b930ec05045")
-		)
-		(instances
-			(project ""
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 92.71 0)
 		(unit 1)
@@ -48028,88 +48891,6 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812")
-		(at 744.22 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d842e0bc-0dda-45d9-ae83-490d27d26c06")
-		(property "Reference" "D7"
-			(at 754.38 341.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812"
-			(at 754.38 344.2014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
-			(at 745.49 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf"
-			(at 746.76 357.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 744.22 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1c13a5bd-da43-4387-857d-aee40f333e1a")
-		)
-		(pin "2"
-			(uuid "6c39f7a6-9a0b-460b-91e4-fa424d52e180")
-		)
-		(pin "3"
-			(uuid "5ec0ac50-fc78-43b2-aea2-9dbcf3e3d1ad")
-		)
-		(pin "5"
-			(uuid "755a3078-e740-459d-88c6-2b848a40be8b")
-		)
-		(pin "6"
-			(uuid "f8af8691-c682-4a31-9be1-91d102978e8a")
-		)
-		(pin "1"
-			(uuid "53ec0071-522c-4674-ae15-b7fe76b5ace8")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -49396,6 +50177,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 688.34 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67983db-3fd6-4582-ad7a-5dc1da63663a")
+		(property "Reference" "D9"
+			(at 699.77 339.1214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 699.77 341.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 689.61 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 690.88 354.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 688.34 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec2e9c3f-95b9-4911-9cb8-ada0261bc45b")
+		)
+		(pin "3"
+			(uuid "96c5c246-7b76-4a31-b747-fd1ef5d8feb5")
+		)
+		(pin "4"
+			(uuid "7c80988c-bfd2-40d6-9e31-095a356c5d11")
+		)
+		(pin "1"
+			(uuid "a8495f9e-0025-48a2-98d3-4ed92e60b53c")
+		)
+		(instances
+			(project ""
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 267.97 450.85 0)
 		(unit 1)
@@ -50327,6 +51184,73 @@
 			(project ""
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 737.87 337.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f41fe5d2-8962-4310-8f2c-70c580692b18")
+		(property "Reference" "#PWR0172"
+			(at 737.87 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 737.87 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 737.87 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 737.87 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 737.87 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f493297d-3e5d-4ea5-a87d-bdff379caf12")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
