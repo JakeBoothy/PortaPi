@@ -16723,6 +16723,12 @@
 		(uuid "37ac182e-07bf-44ad-bc6a-119c956f32c5")
 	)
 	(junction
+		(at 717.55 285.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a516fad-2d5a-4f20-89c6-c522bc74c3ce")
+	)
+	(junction
 		(at 718.185 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16781,12 +16787,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47c287f6-8f5e-42b2-a6fc-a2e5ad1c447b")
-	)
-	(junction
-		(at 720.725 285.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48e0580a-499b-4b45-91eb-ebd8a6d943c2")
 	)
 	(junction
 		(at 502.92 96.52)
@@ -17407,6 +17407,12 @@
 		(uuid "e12d6a9a-4a38-4bf5-b430-fab050067911")
 	)
 	(junction
+		(at 725.17 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12fb540-432c-4db8-b56f-a8c59282a157")
+	)
+	(junction
 		(at 290.83 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17525,12 +17531,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdb4bd0f-2fe8-4880-bbbf-25114529c25b")
-	)
-	(junction
-		(at 728.345 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe06a916-2ae7-474d-b74a-188202ff1b7b")
 	)
 	(wire
 		(pts
@@ -17964,16 +17964,6 @@
 	)
 	(wire
 		(pts
-			(xy 720.725 280.67) (xy 720.725 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120b112f-0d27-4245-8fee-a460e4b345e1")
-	)
-	(wire
-		(pts
 			(xy 436.88 193.04) (xy 445.77 193.04)
 		)
 		(stroke
@@ -17991,16 +17981,6 @@
 			(type default)
 		)
 		(uuid "1255ccdc-474a-4125-bf09-dbd9f31e7e1f")
-	)
-	(wire
-		(pts
-			(xy 720.725 285.75) (xy 710.565 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128effc8-3eae-4f07-854f-47455c723ff0")
 	)
 	(wire
 		(pts
@@ -18061,6 +18041,16 @@
 			(type default)
 		)
 		(uuid "138f5563-7663-4319-baa4-12a7f23cbf7d")
+	)
+	(wire
+		(pts
+			(xy 297.18 430.53) (xy 297.18 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1439024d-0aab-4491-b294-9bf64ad702e3")
 	)
 	(wire
 		(pts
@@ -18441,16 +18431,6 @@
 			(type default)
 		)
 		(uuid "244d71cc-86aa-4c4a-b65b-82c59e5da356")
-	)
-	(wire
-		(pts
-			(xy 728.345 229.87) (xy 728.345 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251cb2e0-7f24-4d40-bcb7-8c6b43f761b8")
 	)
 	(wire
 		(pts
@@ -19015,6 +18995,16 @@
 	)
 	(wire
 		(pts
+			(xy 717.55 276.86) (xy 717.55 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbb279c-b5ba-490f-bfae-c91c6ca8f297")
+	)
+	(wire
+		(pts
 			(xy 135.89 142.24) (xy 104.14 142.24)
 		)
 		(stroke
@@ -19255,7 +19245,7 @@
 	)
 	(wire
 		(pts
-			(xy 728.345 234.95) (xy 718.185 234.95)
+			(xy 728.345 234.95) (xy 725.17 234.95)
 		)
 		(stroke
 			(width 0)
@@ -19922,6 +19912,16 @@
 			(type default)
 		)
 		(uuid "6a1edd99-233c-465b-84df-cf62c686d3ec")
+	)
+	(wire
+		(pts
+			(xy 717.55 285.75) (xy 720.725 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ccd55-c6d1-4538-a29e-20d4ea2b5529")
 	)
 	(wire
 		(pts
@@ -20965,6 +20965,16 @@
 	)
 	(wire
 		(pts
+			(xy 717.55 285.75) (xy 710.565 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a060720e-efde-4d2b-9417-5d34ed957f24")
+	)
+	(wire
+		(pts
 			(xy 701.04 129.54) (xy 690.88 129.54)
 		)
 		(stroke
@@ -21505,13 +21515,23 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 152.4) (xy 549.91 149.86)
+			(xy 560.07 147.32) (xy 560.07 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8def5eb-81af-4f50-95ce-098585f77e4f")
+	)
+	(wire
+		(pts
+			(xy 725.17 234.95) (xy 718.185 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ff51cd-a649-4b85-9aa0-51dbefe87a27")
 	)
 	(wire
 		(pts
@@ -22095,6 +22115,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 226.06) (xy 725.17 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfc9f39-079e-45b5-82dd-f3f25f8d44ba")
+	)
+	(wire
+		(pts
 			(xy 271.78 336.55) (xy 290.83 336.55)
 		)
 		(stroke
@@ -22275,7 +22305,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 334.01) (xy 290.83 336.55)
+			(xy 290.83 331.47) (xy 290.83 336.55)
 		)
 		(stroke
 			(width 0)
@@ -23370,6 +23400,17 @@
 		)
 		(uuid "018ddfac-24c1-47c6-9657-7984acdd5b81")
 	)
+	(label "+3.3V_AUX2"
+		(at 725.17 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03abac12-66bd-4a9e-8b16-8f8f3f46f199")
+	)
 	(label "I2S_RXD"
 		(at 234.95 273.05 0)
 		(fields_autoplaced yes)
@@ -23402,6 +23443,17 @@
 			(justify left bottom)
 		)
 		(uuid "08d479f1-72ec-49a5-b43d-f458699d2c90")
+	)
+	(label "+3.3V_AUX1"
+		(at 290.83 331.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09748534-059e-4beb-a985-29e3a9fc2252")
 	)
 	(label "BUTTON_R"
 		(at 711.2 162.56 0)
@@ -23699,6 +23751,17 @@
 			(justify left bottom)
 		)
 		(uuid "28fa1bec-32e3-430d-8ebe-cf3d7a9f41a7")
+	)
+	(label "+3.3V_AUX1"
+		(at 297.18 430.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a3b76f5-4f70-4c7d-a431-fb334596e257")
 	)
 	(label "HP_L"
 		(at 148.59 273.05 180)
@@ -24063,6 +24126,17 @@
 		)
 		(uuid "59d82fc1-3ea8-4912-9bfa-2433d4ee9956")
 	)
+	(label "+3.3V_AUX2"
+		(at 717.55 276.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba4e233-7d94-4d94-8d76-f228e03ebd45")
+	)
 	(label "HP_R"
 		(at 90.17 257.81 0)
 		(fields_autoplaced yes)
@@ -24075,7 +24149,7 @@
 		(uuid "5c12675e-6e49-40d3-8cd8-156bfc9d5484")
 	)
 	(label "RESET"
-		(at 549.91 152.4 180)
+		(at 560.07 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24084,6 +24158,17 @@
 			(justify right bottom)
 		)
 		(uuid "5dc7d195-a11d-4a93-83f8-f58e41b173d4")
+	)
+	(label "+3.3V_AUX2"
+		(at 201.93 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e0e102c-e49c-4810-93a9-9993e4475182")
 	)
 	(label "EYESPI_SCL"
 		(at 304.8 236.22 0)
@@ -28755,6 +28840,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 593.09 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f621ba7-1e60-43e2-a948-8f07be3d4a05")
+		(property "Reference" "FID6"
+			(at 595.63 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 595.63 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 593.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 593.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 593.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 570.23 243.84 0)
 		(unit 1)
@@ -29517,7 +29666,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 591.82 154.94 0)
+		(at 579.12 154.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -29526,7 +29675,7 @@
 		(fields_autoplaced yes)
 		(uuid "2635b1f5-847b-45d9-909a-70823eb6ff96")
 		(property "Reference" "FID3"
-			(at 594.36 153.6699 0)
+			(at 581.66 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29535,7 +29684,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 594.36 156.2099 0)
+			(at 581.66 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29544,7 +29693,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 591.82 154.94 0)
+			(at 579.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29553,7 +29702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 591.82 154.94 0)
+			(at 579.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29562,7 +29711,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 591.82 154.94 0)
+			(at 579.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32602,7 +32751,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 591.82 160.02 0)
+		(at 579.12 160.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -32611,7 +32760,7 @@
 		(fields_autoplaced yes)
 		(uuid "3eb7e99b-8e60-422e-a71f-08173e8d59e6")
 		(property "Reference" "FID4"
-			(at 594.36 158.7499 0)
+			(at 581.66 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32620,7 +32769,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 594.36 161.2899 0)
+			(at 581.66 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32629,7 +32778,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 591.82 160.02 0)
+			(at 579.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32638,7 +32787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 591.82 160.02 0)
+			(at 579.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32647,7 +32796,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 591.82 160.02 0)
+			(at 579.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32731,7 +32880,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 591.82 149.86 0)
+		(at 579.12 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -32740,7 +32889,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fc5ebb4-8859-4626-a787-9cd90fd2c353")
 		(property "Reference" "FID2"
-			(at 594.36 148.5899 0)
+			(at 581.66 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32749,7 +32898,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 594.36 151.1299 0)
+			(at 581.66 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32758,7 +32907,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 591.82 149.86 0)
+			(at 579.12 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32767,7 +32916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 591.82 149.86 0)
+			(at 579.12 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32776,7 +32925,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 591.82 149.86 0)
+			(at 579.12 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33407,7 +33556,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 549.91 146.05 180)
+		(at 560.07 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33415,7 +33564,7 @@
 		(dnp no)
 		(uuid "4477947b-6687-4ece-aee6-5e2adb2aef43")
 		(property "Reference" "R14"
-			(at 546.1 145.034 0)
+			(at 556.26 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33423,7 +33572,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 546.1 147.066 0)
+			(at 556.26 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33431,7 +33580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 551.688 146.05 90)
+			(at 561.848 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33440,7 +33589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 549.91 146.05 0)
+			(at 560.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33449,7 +33598,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 549.91 146.05 0)
+			(at 560.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34488,73 +34637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 201.93 195.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fa661bf-db70-4bac-a0a1-7fab1201cd4e")
-		(property "Reference" "#PWR065"
-			(at 201.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 201.93 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 201.93 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfd65f0d-c05d-414d-895a-038cebd08a49")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 372.11 101.6 0)
 		(unit 1)
@@ -35578,6 +35660,72 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 560.07 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b3274eb-b11b-42a0-97e3-af69bacfec0f")
+		(property "Reference" "#PWR044"
+			(at 560.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 560.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 560.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 560.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 560.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d374059b-83f2-42d8-9c28-4792da1dee36")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -38106,72 +38254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 720.725 280.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7861c342-11e5-4c7a-beff-8e93c64a4f04")
-		(property "Reference" "#PWR0103"
-			(at 720.725 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 720.725 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 720.725 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 720.725 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 720.725 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b210fa1-a968-4dae-a3ab-25f463145ca2")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 765.81 162.56 0)
 		(unit 1)
@@ -39483,72 +39565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 297.18 434.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81845a4c-09a8-4f63-905a-42602c16866a")
-		(property "Reference" "#PWR0142"
-			(at 297.18 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 297.18 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 297.18 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dba49ca6-83ec-40c3-b4d2-0603e084f84a")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 688.34 353.06 0)
 		(unit 1)
@@ -40217,72 +40233,6 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 728.345 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d6ce84-b155-401e-951f-f597d9d6ac5a")
-		(property "Reference" "#PWR089"
-			(at 728.345 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 728.345 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 728.345 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 728.345 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 728.345 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9469be4e-794e-42f0-8cf9-76cb91168380")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -45654,72 +45604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 549.91 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c082b149-3e8b-4978-b639-a9e5ca769f3d")
-		(property "Reference" "#PWR044"
-			(at 549.91 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 549.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 549.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 549.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 549.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "209ef579-12d8-467e-a8be-ef3c78183810")
-		)
-		(instances
-			(project "PortaPi_R1"
-				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 220.98 217.17 0)
 		(mirror y)
@@ -46663,6 +46547,70 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 593.09 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca46d79d-7bdc-437e-86b1-2a244949b9bf")
+		(property "Reference" "FID5"
+			(at 595.63 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 595.63 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 593.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 593.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 593.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -47681,7 +47629,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 591.82 144.78 0)
+		(at 579.12 144.78 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -47690,7 +47638,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0ae6b9d-b106-4352-aecd-e5b4fc863e61")
 		(property "Reference" "FID1"
-			(at 594.36 143.5099 0)
+			(at 581.66 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47699,7 +47647,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 594.36 146.0499 0)
+			(at 581.66 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47708,7 +47656,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 591.82 144.78 0)
+			(at 579.12 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47717,7 +47665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 591.82 144.78 0)
+			(at 579.12 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47726,7 +47674,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 591.82 144.78 0)
+			(at 579.12 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48687,6 +48635,70 @@
 			(project ""
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 593.09 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5a672e3-1a12-463a-8f0a-ac7a0166774e")
+		(property "Reference" "FID7"
+			(at 595.63 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 595.63 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 593.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 593.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 593.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "FID7")
 					(unit 1)
 				)
 			)
@@ -50990,17 +51002,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 290.83 334.01 0)
+		(lib_id "Mechanical:Fiducial")
+		(at 593.09 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1d5da49-d9b9-4195-8ccf-0bf2fdee05b1")
-		(property "Reference" "#PWR0117"
-			(at 290.83 337.82 0)
+		(uuid "f1f2699d-c908-4020-a212-c4471d6cb184")
+		(property "Reference" "FID8"
+			(at 595.63 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 595.63 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 593.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51008,16 +51038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 290.83 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 334.01 0)
+		(property "Datasheet" "~"
+			(at 593.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51025,31 +51047,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 290.83 334.01 0)
+		(property "Description" "Fiducial Marker"
+			(at 593.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 290.83 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fea74840-3cc6-4cd6-bf68-41d4201756c8")
 		)
 		(instances
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
-					(reference "#PWR0117")
+					(reference "FID8")
 					(unit 1)
 				)
 			)
