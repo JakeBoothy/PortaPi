@@ -15956,7 +15956,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 190.5 87.63)
+			(xy 160.02 87.63) (xy 189.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -17627,6 +17627,16 @@
 	)
 	(wire
 		(pts
+			(xy 683.26 160.02) (xy 685.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dabdfe-48be-4d5a-a970-ccfa374535b4")
+	)
+	(wire
+		(pts
 			(xy 471.17 252.73) (xy 490.22 252.73)
 		)
 		(stroke
@@ -19147,6 +19157,16 @@
 	)
 	(wire
 		(pts
+			(xy 670.56 345.44) (xy 680.72 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcad5d6e-53e5-4247-80e7-6ddc9915f278")
+	)
+	(wire
+		(pts
 			(xy 406.4 323.85) (xy 406.4 325.12)
 		)
 		(stroke
@@ -20327,6 +20347,16 @@
 	)
 	(wire
 		(pts
+			(xy 668.02 160.02) (xy 675.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7d2e46-9af8-42e3-b06c-07aef563ee5a")
+	)
+	(wire
+		(pts
 			(xy 397.51 325.12) (xy 406.4 325.12)
 		)
 		(stroke
@@ -21223,6 +21253,17 @@
 		)
 		(uuid "1d2ffd8a-e283-483f-b1c3-f448a5a0d281")
 	)
+	(label "INPUT_INT"
+		(at 593.09 298.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1eed3030-7631-40f8-af49-53f9fcfb3296")
+	)
 	(label "+3.3V_AUX2_C"
 		(at 642.62 185.42 180)
 		(fields_autoplaced yes)
@@ -21409,6 +21450,17 @@
 			(justify left bottom)
 		)
 		(uuid "28fa1bec-32e3-430d-8ebe-cf3d7a9f41a7")
+	)
+	(label "INPUT_INT_C"
+		(at 621.03 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a21472a-8119-4cfc-a700-7aa59f477e65")
 	)
 	(label "+3.3V_AUX1"
 		(at 295.91 388.62 0)
@@ -21916,6 +21968,17 @@
 		)
 		(uuid "648141ab-db57-46a9-9173-7190f0dd1944")
 	)
+	(label "+3.3V_AUX2_C"
+		(at 713.74 369.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "668bacdb-7acf-464a-8fc9-a43ca2bab7cf")
+	)
 	(label "QSPI_SD2"
 		(at 576.58 403.86 180)
 		(fields_autoplaced yes)
@@ -21926,6 +21989,17 @@
 			(justify right bottom)
 		)
 		(uuid "66bdec31-c10b-468a-9408-4a4a6a9608fa")
+	)
+	(label "LID_SENSE"
+		(at 728.98 377.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b115b5-500f-4b71-bad5-f94bf89b84ea")
 	)
 	(label "SWD"
 		(at 381 443.23 0)
@@ -22169,6 +22243,17 @@
 		)
 		(uuid "75686904-1b93-4e31-af22-07386ddd95db")
 	)
+	(label "LID_SENSE"
+		(at 711.2 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75d101c1-888b-4bf6-97d5-b596e526a631")
+	)
 	(label "SPI1 SCK"
 		(at 585.47 331.47 180)
 		(fields_autoplaced yes)
@@ -22257,7 +22342,7 @@
 		)
 		(uuid "864f64c5-a9f1-4ba6-bafe-41cbc2ec1402")
 	)
-	(label "INPUT_INT"
+	(label "INPUT_INT_C"
 		(at 668.02 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22367,17 +22452,6 @@
 		)
 		(uuid "98467ede-c1b4-4210-857a-a6a9518a19ca")
 	)
-	(label "RESET"
-		(at 685.8 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98ce3153-0b54-43b6-b2c2-b2c2c18d6e78")
-	)
 	(label "LEFT_LOP_C"
 		(at 621.03 308.61 0)
 		(fields_autoplaced yes)
@@ -22388,6 +22462,17 @@
 			(justify left bottom)
 		)
 		(uuid "98d9b17a-2838-4f9b-a4df-cb30617bc0da")
+	)
+	(label "INPUT_INT"
+		(at 593.09 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bcec9b9-cfb3-4ef1-8182-a812e7aa11da")
 	)
 	(label "RIGHT_LOM_CON"
 		(at 593.09 346.71 180)
@@ -23037,6 +23122,17 @@
 			(justify left bottom)
 		)
 		(uuid "d7c76dbb-f9ca-4cc5-99c2-1fdf1c877e05")
+	)
+	(label "INPUT_INT_C"
+		(at 621.03 298.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9146640-caca-4e53-a83c-21f2e04212b4")
 	)
 	(label "+3.3V_AUX2"
 		(at 572.77 285.75 0)
@@ -25266,6 +25362,72 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 713.74 384.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15b7e800-a2c6-4384-8103-04fe7d753192")
+		(property "Reference" "#PWR0138"
+			(at 713.74 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_C"
+			(at 713.232 388.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 713.74 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 713.74 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 713.74 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b82e021-331e-4a21-be09-ec807402624d")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -31898,6 +32060,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 668.02 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a7fd657-5658-4c3e-95e0-38ec4987610f")
+		(property "Reference" "#PWR0130"
+			(at 668.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_C"
+			(at 663.702 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 668.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 668.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 668.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ba9fdc-d2f0-446b-a340-ca9a846dcec2")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 259.08 90)
 		(mirror x)
@@ -33472,7 +33699,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 190.5 91.44 0)
+		(at 189.23 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33480,7 +33707,7 @@
 		(dnp no)
 		(uuid "5ed2ed14-750c-4cd4-9d4b-00e461d962ef")
 		(property "Reference" "TH1"
-			(at 192.786 90.678 0)
+			(at 191.516 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33489,7 +33716,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 192.786 92.71 0)
+			(at 191.516 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33498,7 +33725,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 90.17 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33507,7 +33734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 90.17 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33516,7 +33743,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 190.5 91.44 0)
+			(at 189.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45198,7 +45425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 95.25 0)
+		(at 189.23 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45207,7 +45434,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3f79a8d-47a6-4590-8a7b-4812851436fe")
 		(property "Reference" "#PWR017"
-			(at 190.5 101.6 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45216,7 +45443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 100.33 0)
+			(at 189.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45225,7 +45452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 95.25 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45234,7 +45461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 95.25 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45243,7 +45470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 95.25 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47360,6 +47587,73 @@
 			(project "PortaPi_R1"
 				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 679.45 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9bfa440-ef9f-45cb-978b-e4046657d689")
+		(property "Reference" "R46"
+			(at 679.45 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 679.45 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 679.45 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 679.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 679.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8abb37e7-bcdf-4a32-9ddb-35c2234ef7c0")
+		)
+		(pin "2"
+			(uuid "45bee481-66f6-4c2e-9cdc-5529b17edbb8")
+		)
+		(instances
+			(project "PortaPi_R1"
+				(path "/aef56874-4e02-4e4a-b6dd-7772aaa5a84e"
+					(reference "R46")
 					(unit 1)
 				)
 			)
